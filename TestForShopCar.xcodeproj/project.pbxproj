@@ -8,20 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		1810DC8E1E5BE0DC004BE4CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1810DC8D1E5BE0DC004BE4CD /* AppDelegate.swift */; };
-		1810DC901E5BE0DC004BE4CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1810DC8F1E5BE0DC004BE4CD /* ViewController.swift */; };
-		1810DC931E5BE0DC004BE4CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1810DC911E5BE0DC004BE4CD /* Main.storyboard */; };
+		1810DC901E5BE0DC004BE4CD /* ShopCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1810DC8F1E5BE0DC004BE4CD /* ShopCarViewController.swift */; };
 		1810DC951E5BE0DC004BE4CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1810DC941E5BE0DC004BE4CD /* Assets.xcassets */; };
 		1810DC981E5BE0DC004BE4CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1810DC961E5BE0DC004BE4CD /* LaunchScreen.storyboard */; };
+		1810DCA21E5BE22C004BE4CD /* ReceiptAddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1810DCA11E5BE22C004BE4CD /* ReceiptAddressView.swift */; };
+		1810DCA41E5BF027004BE4CD /* LFBTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1810DCA31E5BF027004BE4CD /* LFBTableView.swift */; };
+		1810DCA61E5C17B8004BE4CD /* UserShopCarTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1810DCA51E5C17B8004BE4CD /* UserShopCarTool.swift */; };
+		1810DCA81E5C1807004BE4CD /* String + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1810DCA71E5C1807004BE4CD /* String + Extension.swift */; };
+		1810DCAA1E5C182D004BE4CD /* Goods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1810DCA91E5C182D004BE4CD /* Goods.swift */; };
+		1810DCAC1E5C18E2004BE4CD /* ShopCarRedDotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1810DCAB1E5C18E2004BE4CD /* ShopCarRedDotView.swift */; };
+		1810DCAE1E5C2E38004BE4CD /* ShopCartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1810DCAD1E5C2E38004BE4CD /* ShopCartCell.swift */; };
+		1810DCB21E5C2F86004BE4CD /* BuyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1810DCB11E5C2F86004BE4CD /* BuyView.swift */; };
+		1810DCB41E5C2FCA004BE4CD /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1810DCB31E5C2FCA004BE4CD /* Theme.swift */; };
+		1810DCB61E5C30A7004BE4CD /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1810DCB51E5C30A7004BE4CD /* Color+Extension.swift */; };
+		186354C31E5D824900EB5FD2 /* ShopCartSupermarketTableFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186354C21E5D824900EB5FD2 /* ShopCartSupermarketTableFooterView.swift */; };
+		186354C51E5D8E7000EB5FD2 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186354C41E5D8E7000EB5FD2 /* UIViewExt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1810DC8A1E5BE0DC004BE4CD /* TestForShopCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestForShopCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1810DC8D1E5BE0DC004BE4CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1810DC8F1E5BE0DC004BE4CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1810DC921E5BE0DC004BE4CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1810DC8F1E5BE0DC004BE4CD /* ShopCarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopCarViewController.swift; sourceTree = "<group>"; };
 		1810DC941E5BE0DC004BE4CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1810DC971E5BE0DC004BE4CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1810DC991E5BE0DC004BE4CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1810DCA11E5BE22C004BE4CD /* ReceiptAddressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiptAddressView.swift; sourceTree = "<group>"; };
+		1810DCA31E5BF027004BE4CD /* LFBTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LFBTableView.swift; sourceTree = "<group>"; };
+		1810DCA51E5C17B8004BE4CD /* UserShopCarTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserShopCarTool.swift; sourceTree = "<group>"; };
+		1810DCA71E5C1807004BE4CD /* String + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String + Extension.swift"; sourceTree = "<group>"; };
+		1810DCA91E5C182D004BE4CD /* Goods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Goods.swift; sourceTree = "<group>"; };
+		1810DCAB1E5C18E2004BE4CD /* ShopCarRedDotView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopCarRedDotView.swift; sourceTree = "<group>"; };
+		1810DCAD1E5C2E38004BE4CD /* ShopCartCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopCartCell.swift; sourceTree = "<group>"; };
+		1810DCB11E5C2F86004BE4CD /* BuyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuyView.swift; sourceTree = "<group>"; };
+		1810DCB31E5C2FCA004BE4CD /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		1810DCB51E5C30A7004BE4CD /* Color+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		186354C21E5D824900EB5FD2 /* ShopCartSupermarketTableFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopCartSupermarketTableFooterView.swift; sourceTree = "<group>"; };
+		186354C41E5D8E7000EB5FD2 /* UIViewExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +77,56 @@
 			isa = PBXGroup;
 			children = (
 				1810DC8D1E5BE0DC004BE4CD /* AppDelegate.swift */,
-				1810DC8F1E5BE0DC004BE4CD /* ViewController.swift */,
-				1810DC911E5BE0DC004BE4CD /* Main.storyboard */,
+				1810DC8F1E5BE0DC004BE4CD /* ShopCarViewController.swift */,
+				186354C01E5D6B9700EB5FD2 /* V */,
+				186354C11E5D6BEC00EB5FD2 /* M */,
+				1810DCB71E5C3523004BE4CD /* Tool */,
+				186354BF1E5D6B6300EB5FD2 /* Ext */,
 				1810DC941E5BE0DC004BE4CD /* Assets.xcassets */,
 				1810DC961E5BE0DC004BE4CD /* LaunchScreen.storyboard */,
 				1810DC991E5BE0DC004BE4CD /* Info.plist */,
 			);
 			path = TestForShopCar;
+			sourceTree = "<group>";
+		};
+		1810DCB71E5C3523004BE4CD /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				1810DCA51E5C17B8004BE4CD /* UserShopCarTool.swift */,
+				1810DCB31E5C2FCA004BE4CD /* Theme.swift */,
+			);
+			name = Tool;
+			sourceTree = "<group>";
+		};
+		186354BF1E5D6B6300EB5FD2 /* Ext */ = {
+			isa = PBXGroup;
+			children = (
+				1810DCA31E5BF027004BE4CD /* LFBTableView.swift */,
+				1810DCB51E5C30A7004BE4CD /* Color+Extension.swift */,
+				1810DCA71E5C1807004BE4CD /* String + Extension.swift */,
+				186354C41E5D8E7000EB5FD2 /* UIViewExt.swift */,
+			);
+			name = Ext;
+			sourceTree = "<group>";
+		};
+		186354C01E5D6B9700EB5FD2 /* V */ = {
+			isa = PBXGroup;
+			children = (
+				186354C21E5D824900EB5FD2 /* ShopCartSupermarketTableFooterView.swift */,
+				1810DCAD1E5C2E38004BE4CD /* ShopCartCell.swift */,
+				1810DCA11E5BE22C004BE4CD /* ReceiptAddressView.swift */,
+				1810DCAB1E5C18E2004BE4CD /* ShopCarRedDotView.swift */,
+				1810DCB11E5C2F86004BE4CD /* BuyView.swift */,
+			);
+			name = V;
+			sourceTree = "<group>";
+		};
+		186354C11E5D6BEC00EB5FD2 /* M */ = {
+			isa = PBXGroup;
+			children = (
+				1810DCA91E5C182D004BE4CD /* Goods.swift */,
+			);
+			name = M;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +191,6 @@
 			files = (
 				1810DC981E5BE0DC004BE4CD /* LaunchScreen.storyboard in Resources */,
 				1810DC951E5BE0DC004BE4CD /* Assets.xcassets in Resources */,
-				1810DC931E5BE0DC004BE4CD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +201,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1810DC901E5BE0DC004BE4CD /* ViewController.swift in Sources */,
+				1810DCAC1E5C18E2004BE4CD /* ShopCarRedDotView.swift in Sources */,
+				1810DCB61E5C30A7004BE4CD /* Color+Extension.swift in Sources */,
+				1810DCAE1E5C2E38004BE4CD /* ShopCartCell.swift in Sources */,
+				1810DCB41E5C2FCA004BE4CD /* Theme.swift in Sources */,
+				1810DCA21E5BE22C004BE4CD /* ReceiptAddressView.swift in Sources */,
+				1810DCA81E5C1807004BE4CD /* String + Extension.swift in Sources */,
+				1810DCA41E5BF027004BE4CD /* LFBTableView.swift in Sources */,
+				1810DCB21E5C2F86004BE4CD /* BuyView.swift in Sources */,
+				1810DCAA1E5C182D004BE4CD /* Goods.swift in Sources */,
+				1810DCA61E5C17B8004BE4CD /* UserShopCarTool.swift in Sources */,
+				1810DC901E5BE0DC004BE4CD /* ShopCarViewController.swift in Sources */,
+				186354C51E5D8E7000EB5FD2 /* UIViewExt.swift in Sources */,
+				186354C31E5D824900EB5FD2 /* ShopCartSupermarketTableFooterView.swift in Sources */,
 				1810DC8E1E5BE0DC004BE4CD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,14 +221,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1810DC911E5BE0DC004BE4CD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1810DC921E5BE0DC004BE4CD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1810DC961E5BE0DC004BE4CD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -302,6 +370,7 @@
 				1810DC9E1E5BE0DC004BE4CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
